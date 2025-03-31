@@ -3,7 +3,6 @@
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
    font-family: "Poppins", sans-serif;
 }
 body{
@@ -14,12 +13,21 @@ body{
     background-color: rgb(25, 5, 136);  
 
 }
+
 h1{
     color: #ebe5e5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .C{
+    display: flex;
     width: 480px;
-    height: 80px;
+    height: 105px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:center;
+    align-items: center;
     background-color: rgb(15, 80, 219);
     border: 2px solid;
     border-radius: 12px;
@@ -27,22 +35,14 @@ h1{
 
 }
 button{
+    position: absolute;
+    transform: translateX(100%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    align-items: center;
     min-height: 100;
     border-radius: 15px;
-    width: 100px;
-    height: 25px;
-    min-height: 10px;
+    width: 150px;
+    height: 29px;
     color: #fffbfb;
     background-color: rgb(47, 161, 238);
 
-}
-.c h1{
-    font-size: 108px;
-    text-align: center;
-}
-div button{
-    font-size: 10px;
-    text-align: center ;
 }

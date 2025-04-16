@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    width: 150px;
+    height: 350px;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    border-radius: 10px;
+}
+.vermelho{
+    background-color: red;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 31px;
+    top: 8%;
+}
+.amarelo{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 31px;
+    top: 39%;
+
+}
+.verde{
+    background-color: green;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 31px;
+    top: 70%;
+
+}

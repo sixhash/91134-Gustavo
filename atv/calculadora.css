@@ -11,7 +11,20 @@ main{
     top: 20%;
     border-radius: 10px;
 }
+button{
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+p{
+    color: beige;
+    align-items: center;
+    font-size: 25px;
+    left: 80%;
+}
 .tela{
+   
     background-color:rgb(42, 50, 58);
     width: 349px;
     height: 72px;
